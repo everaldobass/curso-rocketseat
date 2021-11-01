@@ -5,4 +5,4 @@ Cursos da maratona Discover da Rocketseat principais trilhas HTML5, CSS3 é Java
 - Maiky Brito.
 - Link - https://app.rocketseat.com.br/dashboard
 
-<img src='/curso-rocketseat/img/home.png ' width='100%'/>
+<img src='./discover-css/img/home.png ' width='100%'/>
