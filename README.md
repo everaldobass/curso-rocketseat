@@ -1,4 +1,4 @@
-# curso-rocketseat
+# cursos-rocketseat
 Cursos da maratona Discover da Rocketseat principais trilhas HTML5, CSS3 é JavaScript.
 
 ## Instrutor
