@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+    <form action="">
+
+
+    <h1>Nome</h1>
+    <div>
+    <label for="">Nome</label>
+    <input type="text" id="" name="" autocomplete="" autofocus>
+    </div>
+
+
+    <h1>Senha</h1>
+    <div>
+    <label for="">Senha</label>
+    <input 
+    type="password" 
+    minlength="4" 
+    maxlength="8" 
+    pattern="#@$$"
+    autocomplete=""
+    placeholder="Digite sua senha"
+    
+    >
+    <button type="submit">Enviar</button>
+    </div>
+    
+    <h1>E-mail</h1>
+    <div>
+    <label for="">Email</label>
+    <input 
+     type="email" 
+     name="email"
+     id="email"
+     minlength="8" 
+     maxlength="">
+    <button type="submit">Enviar</button>
+    </div>
+
+
+    <h1>URL</h1>
+    <div>
+    <label for="">URL</label>
+    <input 
+    type="url"
+    value=""
+    placeholder=""
+    required
+    spellcheck=""
+    >
+
+    <button type="submit"></button>
+    </div>
+
+    <h1>Arquivos</h1>
+    <div>
+    <label for="">File</label>
+    <input action="" method="POST"
+    type="file" 
+    accept=".doc, png, svg, pdf, video/*"
+    multiple>
+
+    </div>
+    <h1>color</h1>
+    <div>
+    <label for="">Color</label>
+    <input type="color" value="#0000ff">
+
+    </div>
+
+    <h1>Checkedbox</h1>
+    <div>
+    <label for="">Checkbox</label>
+    <input 
+    type="checkbox" 
+    name="interest" 
+    id="coding"
+    value="coding" checked
+    >
+    <label for="coding">Coding</label>
+   </div>
+
+   <div>
+      <input type="checkbox" id="music" value="music">
+      <label for="music">Music</label>
+   </div>
+
+
+
+   <div>
+    <label for="">Hidden</label>
+   </div>
+
+   <h1>Radio</h1>
+
+    <div>
+    <fieldset>
+    <label for="">Radio</label>
+    <legend>Vamos tomar um café?</legend>
+    <label for="yes">Sim</label>
+    <input type="radio" name="coffe">
+
+    <label for="none">Não</label>
+    <input type="radio" checked id="none" name="coffe">
+
+    </fieldset>
+    </div>
+     
+    <h1>Textarea</h1>
+    <div>
+    <label for="message">Mensage</label>
+    <textarea 
+    name="message" 
+    id="message" 
+    cols="30" 
+    rows="10"
+    maxlength="200"
+    minlength="50"
+    wrap=""
+    placeholder=""
+    disabled
+    ></textarea>
+    </div>
+
+    <div>
+   <h1>Select</h1>
+   <label for="car">Qual Modelo</label>
+    <select name="carmodel" id="">
+        <option value="bmw">BMW</option>
+        <option value="audi">AUDI</option>
+        <option value="posch">POSCH</option>
+    </select>
+    </div>
+    
+
+    <h1>Optgroup</h1>
+    <div>
+    <label for=""> Grupos 
+        <select name="pets" id="">
+            <optgroup label="4-legged" animais>
+                <option value="dog">Dog</option>
+                <option value="cat">Gato</option>
+                <option value="bird">Passaros</option>
+            </optgroup>
+
+            <optgroup label="5-legged" carros>
+                <option value="bmw">BMW</option>
+                <option value="audi">R8</option>
+                <option value="fiat">Ferrari</option>
+            </optgroup>
+        </select>
+    </label>
+
+
+
+
+    </div>
+
+
+
+    <h1>Search</h1>
+    <div>
+     
+     <form action="">
+         <input
+          type="search" 
+          placeholder="digite"
+          size="29"
+          name="id"
+          title=""
+          >
+          <button>Pesquisar</button>
+     </form>
+    </div>
+
+   
+    <h1>Nember</h1>
+
+   
+
+    <div>
+        <datalist id="numerolist">
+            <option value="">100</option>
+            <option value="">200</option>
+    
+        </datalist>  
+        <form action="">
+            <input type="number"  list="numerolist" >
+
+            <button>Enviar</button>
+        </form>
+    </div>
+
+
+
+    <h1>Range</h1>
+    <div>
+        <input type="range" min="10" step="5">
+    </div>
+
+
+    <h1>Data e Hora</h1>
+    <div>
+        <input type="datetime-local" >
+    </div>
+
+
+</form>
+
+    
+    
+</body>
+</html>
